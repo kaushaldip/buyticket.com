@@ -1,6 +1,6 @@
 <?php echo $this->load->view('common/head');?>
     <!--header sec start-->
-<p>helloooo</p>
+
     <?php echo $this->load->view('common/header');?>
     <!--header sec end-->
    
