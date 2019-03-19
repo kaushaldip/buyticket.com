@@ -99,9 +99,9 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = ($_SERVER['HTTP_HOST'] == "localhost:8888" || $_SERVER['HTTP_HOST'] == "192.168.2.89" || $_SERVER['HTTP_HOST'] == "es77") ? 'localhost:8889' : 'localhost';
 
-$db['default']['username'] = ($_SERVER['HTTP_HOST'] == "localhost:8888" || $_SERVER['HTTP_HOST'] == "192.168.2.89" || $_SERVER['HTTP_HOST'] == "es77") ? 'root' : 'root';
+$db['default']['username'] = ($_SERVER['HTTP_HOST'] == "localhost:8888" || $_SERVER['HTTP_HOST'] == "192.168.2.89" || $_SERVER['HTTP_HOST'] == "es77") ? 'root' : 'sammy';
 
-$db['default']['password'] = ($_SERVER['HTTP_HOST'] == "localhost:8888" || $_SERVER['HTTP_HOST'] == "192.168.2.89" || $_SERVER['HTTP_HOST'] == "es77") ? 'root' : 'Mysql!2323';
+$db['default']['password'] = ($_SERVER['HTTP_HOST'] == "localhost:8888" || $_SERVER['HTTP_HOST'] == "192.168.2.89" || $_SERVER['HTTP_HOST'] == "es77") ? 'root' : 'S@mmyMySQl231';
 
 $db['default']['database'] = ($_SERVER['HTTP_HOST'] == "localhost:8888" || $_SERVER['HTTP_HOST'] == "192.168.2.89" || $_SERVER['HTTP_HOST'] == "es77") ? 'buyticket_ems' : 'buyticket_ems';
 
