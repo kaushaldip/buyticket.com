@@ -1,0 +1,168 @@
+/* Demo CSS, you may remove this */
+
+ul#icons li, 
+ul#icons-16 li, 
+ul#icons-24 li, 
+ul#icons-colors li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+	cursor:pointer;
+}
+
+ul#icons-16 li, 
+ul#icons-24 li, 
+ul#icons-colors li
+{
+	float:left;
+	margin:4px;
+	display:block;
+	background-position:center center;
+	background-color:#434343;
+	width:32px; height:32px;
+	
+	/* CSS 3 */
+	
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+}
+
+ul#icons-16 li
+{
+	background-color:#f0f0f0;
+	border:1px solid #cccccc;
+}
+
+ul#icons-24 li
+{
+	width:40px;
+	height:40px;
+}
+
+ul#icons-colors li
+{
+	width:48px;
+	height:48px;
+	background-color:#f0f0f0;
+	border:1px solid #cccccc;
+}
+
+ul#icons li
+{
+	float:left;
+	margin:2px;
+	padding:4px 0;
+}
+
+ul#icons li.ui-state-default
+{
+	background-color:#f0f0f0;
+	border:1px solid #cccccc;
+}
+
+ul#icons li span
+{
+	display:block;
+	margin:0 4px;
+}
+
+
+#eq span {
+	float:left; margin:0 15px
+}
+.status-active_1{color: green;}
+.status-active{    
+    background-image: url("../images/core/message-success.png");
+    background-position: 12px 12px;
+    background-repeat: no-repeat;    
+    color: #62A426;
+    font-size: 12px;
+    padding: 15px 8px 15px 45px;    
+    vertical-align: middle;
+    margin: 0 auto;
+    width: auto;
+}
+.status-pending_1{color: #A98B15;}
+.status-pending
+{    
+    background-image: url("../images/core/message-warning.png");
+    background-position: 12px 12px;
+    background-repeat: no-repeat;    
+    color: #A98B15;
+    font-size: 12px;
+    padding: 15px 8px 15px 45px;    
+    vertical-align: middle;
+    margin: 0 auto;
+    width: auto;
+}
+.status-inactive_1{color: red;}
+.status-inactive
+{    
+    background-image: url("../images/core/message-error.png");
+    background-position: 12px 12px;
+    background-repeat: no-repeat;    
+    color: #9B4449;
+    font-size: 12px;
+    padding: 15px 8px 15px 45px;    
+    vertical-align: middle;
+    margin: 0 auto;
+    width: auto;
+}
+.status-active-bg{    
+    background-image: url("../images/core/message-success.png");
+    background-position: 12px 12px;
+    background-repeat: no-repeat;    
+    color: #62A426;
+    border: 1px solid;
+    font-size: 12px;
+    padding: 15px 8px 15px 45px;    
+    vertical-align: middle;
+    background-color:#e1f1c0;
+}
+.status-pending-bg
+{    
+    background-image: url("../images/core/message-warning.png");
+    background-position: 12px 12px;
+    background-repeat: no-repeat;    
+    color: #A98B15;
+    border: 1px solid;
+    font-size: 12px;
+    padding: 15px 8px 15px 45px;    
+    vertical-align: middle;
+    background-color:#fef0b1;
+}
+.status-inactive-bg
+{    
+    background-image: url("../images/core/message-error.png");
+    background-position: 12px 12px;
+    background-repeat: no-repeat;    
+    color: #9B4449;
+    border: 1px solid;
+    font-size: 12px;
+    padding: 15px 8px 15px 45px;    
+    vertical-align: middle;
+    background-color:#ffcbca;
+}
+.value_div{
+    background: none repeat scroll 0 0 #EFEFEF;
+    margin-left: 136px;
+    padding: 4px 0 0 10px;
+    vertical-align: middle;
+    text-transform: capitalize;
+}
+.no_capitalize{
+    text-transform: none !important;
+}
+label.title_label {
+     display: inline-block;
+    float: left;
+    margin-right: 16px;
+    width: 120px;
+    padding: 7px 0;
+}
+.profile_image{position:absolute; right: 25px; top: 13px; border:5px solid #fff; outline: 1px solid #ccc; max-height: 100px; width: 100px; overflow:hidden;}
+.profile_image img{width: 100px;}
+.inactive_reason{color: #9B4449; display: block; padding: 10px 5px; background: #fff; border: 1px solid; border-top: 0px !important;}

@@ -1,0 +1,34 @@
+Admin
+----------------
+http://192.168.2.89/buyticket/admin/index
+username: admin
+password: admin
+
+
+Users/Organizer
+----------------
+http://192.168.2.89/buyticket/
+
+info@esignature.com.np
+password:123456
+
+vikas@esignature.com.np
+password:123456
+
+
+
+Paypal
+----------------
+kaushal@esignature.com.np
+123456789
+
+We've changed the bottom photos that feed into the app. They are now feeding from a specific Facebook album. Can you check out the website feed and make the mobile photos match it? 
+
+http://photos-b.ak.fbcdn.net/hphotos-ak-prn1/t1/1504117_218603224989313_1702005673_a.jpg
+http://photos-b.ak.fbcdn.net/hphotos-ak-prn1/t1/1504117_218603224989313_1702005673_n.jpg
+http://photos-h.ak.fbcdn.net/hphotos-ak-prn2/t1/1503400_218603874989248_1293977159_n.jpg
+
+mod_artsexylightbox
+
+
+

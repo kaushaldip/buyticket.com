@@ -1,0 +1,5 @@
+Speednik
+
+-- IE pop up issue -- fixed
+-- No gallery photos found page with no photos found -- solved, display latest -- query "latest gallery or photos" posted on trello
+-- Click arrows before loading webpage issue -- query to preload images or disable click functionality before page load on trello

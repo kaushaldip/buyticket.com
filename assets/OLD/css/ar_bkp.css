@@ -1,0 +1,93 @@
+body .span3.login_signup{float:left !important;}
+body{text-align: right;}
+body .login_signup ul li{width: 49%;margin: 0 1px;float: right;}
+body .contact_number{float: left;background-position: right center;padding-left: 0;padding-right: 30px;}
+body .row-fluid [class*="span"].language{float:left;}
+body .logo{float:right;}
+body .header.navbar .nav > li{float:right;}
+body .contact_menu {margin-left: 0; margin-right: 70px;}
+body .banner .left.span6{float:right;}
+body .banner .right.span6{float:left; margin-left:0; margin-right:20px;}
+body .banner h1{text-align:right;}
+body .banner p{text-align: right;}
+body .banner .big_button{float:right;}
+body .span4.how_each{float:right;}
+body .span3.footer_each{float:right; text-align: right;}
+body .footer_each ul{list-style:none; padding-left:0;}
+body .footer_each ul li{padding-right: 15px; background: url(../img/footer_bullet.jpg) no-repeat right center;}
+body .row-fluid.copyright .span6{float:right;}
+body .row-fluid.copyright p{float:right;}
+body .row-fluid.copyright ul{float:left;}
+body .row-fluid.copyright ul li{float:right;}
+body .row-fluid [class*="span"]{float:right;margin-right: 2.564102564102564%; margin-left:0;}
+body .row-fluid [class*="span"]:first-child{margin-right: 0;}
+body .box_content .search_form{float:right;}
+body .box_content .search_form input{float:right; margin-right: 4px; text-align: right;}
+body .box_content .count{text-align: right;}
+body .event_logo_image{float:right;}
+body .event_each dl{text-align: right;}
+body .right_menu{list-style:none !important; padding:0;}
+body .right_menu li{padding-right: 15px; background: url(../img/right_menu_rvr.png) no-repeat right center;}
+body .terms .forgot{float:left;}
+body .terms input[type="checkbox"]{float:right; margin-left: 10px; margin-top: 3px;}
+body .registration .inputs input[type="submit"].submit{float:right; margin-right: 0;}
+body .inputs input[type="text"],body .inputs input[type="password"]{text-align: right;}
+#contact input[type="submit"].submit{float:right;}
+#contact button.btn{float:left;}
+#contact button.close{float:left;}
+body .content .span8 .pagination ul > li{float:right;}
+body .content .span8 .pagination ul > li:first-child > a, body .content .span8 .pagination ul > li:first-child > span {border-right-width: 1px;-webkit-border-bottom-right-radius: 4px;border-bottom-right-radius: 4px;-webkit-border-top-right-radius: 4px;border-top-right-radius: 4px;-moz-border-radius-bottomright: 4px;-moz-border-radius-topright: 4px;border-left-width: 0;-webkit-border-bottom-left-radius: 0;border-bottom-left-radius: 0;-webkit-border-top-left-radius: 0;border-top-left-radius: 0;-moz-border-radius-bottomleft: 0;-moz-border-radius-topleft: 0;}
+body .content .span8 .pagination ul > li:last-child > a, body .content .span8 .pagination ul > li:last-child > span {-webkit-border-top-right-radius: 0;border-top-right-radius: 0;-webkit-border-bottom-right-radius: 0;border-bottom-right-radius: 0;-moz-border-radius-topright: 0;-moz-border-radius-bottomright: 0;border-left-width: 1px;-webkit-border-bottom-left-radius: 4px;border-bottom-left-radius: 4px;-webkit-border-top-left-radius: 4px;border-top-left-radius: 4px;-moz-border-radius-bottomleft: 4px;-moz-border-radius-topleft: 4px;}
+body .steps{float: right;margin-right: -26px;margin-left: 20px;background: url(../img/steps_rev.png) no-repeat;}
+body .form-horizontal .control-label{float:right; text-align: left;}
+body .form-horizontal .controls{margin-right: 180px;margin-left:0;}
+body .form-horizontal.create_event .controls input{float:right; text-align:right;}
+body .form-horizontal.create_event .controls input[type="checkbox"]{float:right !important; margin: 4px;}
+body input.datepicker, body input.dateonlypicker{background-position: 4% center; text-align: right;}
+body span.for_end_date{float:right; margin: 5px 8px;}
+body span.for_example{float:right;}
+body span.for_status{float:right;}
+body img#blah{float:right;}
+body .form-horizontal.create_event .controls input[type="radio"]{vertical-align: middle; margin: 4px;}
+body .form-horizontal.create_event .btn{float:right; margin-left: 5px;}
+body .table{direction:rtl !important;}
+body .table th, body .table td{text-align: right;}
+body  #ticketTable.table_rows_add.table.table-striped label{float:right !important;}
+@media (min-width: 960px) {
+	body .menu{
+		float:left;	
+	}
+	body .logo{
+		margin: -10px 0 15px 0;	
+	}
+	body .footer_menu{
+		display:none;	
+	}
+}
+@media (max-width: 959px) {
+	body .copyright ul{float:none; text-align:center;}
+	body .copyright ul li{float:none;}
+	body .copyright ul li a{float:none;}
+	body .copyright p{float:none; text-align:center;}
+	body .footer_each{
+		display:none !important;	
+	}
+	body .banner .right iframe {
+		height:100%;
+		border-width:3px;
+	}
+	body .banner p{
+		padding-left: 10px;
+		padding-right: 10px;	
+	}
+	body .banner h1{
+		padding-right: 10px;
+		padding-left:10px;	
+	}
+	body .big_button{
+		margin-left:10px;	
+	}
+	body .col2{
+		display:none;	
+	}
+}

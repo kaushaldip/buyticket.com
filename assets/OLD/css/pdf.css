@@ -1,0 +1,7 @@
+.ticket_table{border-top:solid 5px #d9d9d9; border-left:solid 5px #d9d9d9; border-spacing: 0;}
+.ticket_table tr td{border-bottom:solid 5px #d9d9d9; border-right:solid 5px #d9d9d9; padding:5px; vertical-align:top;}
+.ticket_table tr td span{font-weight:normal; color:#b0b0b0; font-size:10px;}
+.ticket_table tr td h3, .ticket_table tr td h4,.ticket_table tr td h6, .ticket_table tr td p{text-align: right;}
+.ticket_table tr td h3{vertical-align: baseline; margin: 14px 0 0;}
+.ticket_table tr td p{font-size: 12px; margin:0;}
+.ticket_table tr td h4,.ticket_table tr td h6{margin:5px 0 0;}

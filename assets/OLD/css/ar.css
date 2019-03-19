@@ -1,0 +1,175 @@
+body{direction:rtl; text-align: right;}
+.ie8 body, .ie9 body, ie10 body{ position:absolute; width:100%; left:0;}
+
+body .banner h1{line-height: 70px;}
+
+body .pagination ul > li{float:right;}
+body .pagination ul > li:first-child > a, body .content .span8 .pagination ul > li:first-child > span {border-right-width: 1px;-webkit-border-bottom-right-radius: 4px;border-bottom-right-radius: 4px;-webkit-border-top-right-radius: 4px;border-top-right-radius: 4px;-moz-border-radius-bottomright: 4px;-moz-border-radius-topright: 4px;border-left-width: 0;-webkit-border-bottom-left-radius: 0;border-bottom-left-radius: 0;-webkit-border-top-left-radius: 0;border-top-left-radius: 0;-moz-border-radius-bottomleft: 0;-moz-border-radius-topleft: 0;}
+body .pagination ul > li:last-child > a, body .content .span8 .pagination ul > li:last-child > span {-webkit-border-top-right-radius: 0;border-top-right-radius: 0;-webkit-border-bottom-right-radius: 0;border-bottom-right-radius: 0;-moz-border-radius-topright: 0;-moz-border-radius-bottomright: 0;border-left-width: 1px;-webkit-border-bottom-left-radius: 4px;border-bottom-left-radius: 4px;-webkit-border-top-left-radius: 4px;border-top-left-radius: 4px;-moz-border-radius-bottomleft: 4px;-moz-border-radius-topleft: 4px;}
+
+body .close{float:left;}
+body .modal-footer .submit{float:right;}
+body .modal-footer .btn{float:left;}
+body .modal-body input[type="checkbox"]{margin:0 4px;}
+
+body .nav-tabs > li, .nav-pills > li{float:right;}
+/* General Ends */
+/* Header Begins */
+body .event_each div.category_box {right: auto; left: 3px !important;}
+body span.float_righter{float:left !important; }
+body .span3.login_signup{float:left !important;}
+body .contact_number{float: left;background-position: right center;padding-left: 0;padding-right: 30px;}
+body .row-fluid [class*="span"].language{float:left; margin-left: 2.12766%;}
+body .logo{float:right;}
+body .menu ul li.contact_menu {margin-left: 0; margin-right: 0; padding-right: 25px; padding-left: 0;}
+/* Header Ends */
+body .language{text-align: left;}
+body .language img{margin-right: 0; margin-left: 0;}
+.row-fluid.banner{direction: rtl;}
+body .banner .big_button{float:right; display:block;width:204px;}
+body .footer_each ul{padding-left:0; padding-right:15px;}
+body .row-fluid.copyright p{float:right;}
+body .row-fluid.copyright ul{float:left;}
+body .row-fluid.copyright ul li{float:right;}
+
+body .right_menu{list-style-image: url(../img/right_menu_rvr.png) !important; padding-left:0; padding-right: 15px;}
+body .event_logo_image{float:right;}
+body .event_each dl{margin: 10px;}
+body .event_each.notop dl{margin:35px 10px 10px 0}
+body nobr{float:right; direction: rtl;}
+body nobr.currency{float:right; direction: rtl;}
+body .event_each dl dd{margin-right: 0;}
+
+body .steps{float: right;margin-right: -26px;margin-left: 20px;background: url(../img/steps_rev.png) no-repeat;}
+body .form-horizontal .control-label{float:right; text-align: left;font-size:18px;}
+body .form-horizontal .controls{margin-right: 180px;margin-left:0;}
+body input.datepicker, body input.dateonlypicker{background-position: 4% center;}
+
+body ul.for_info li label{text-align: left;margin-right:0; margin-left: 10px;}
+
+body .submit{float:right;}
+
+body ul.for_info li strong{text-align: right; padding-left:0; padding-right: 10px;}
+
+body .header_inside .menu{float:right;}
+body .header_inside .logo{margin: 2px 0 2px 50px;}
+body .header_inside .menu ul li{float:right; font-weight:bold;}
+
+body .event_actions{left: 5px; right: auto;}
+body input[type="file"]{ direction: ltr;font-size: 12px; max-width: 90px;color:transparent;}
+body input.fileType{font-size: 12px; max-width: 90px;color:transparent; float: right;}
+body label.fileLabel{float: right;}
+body img#blah{float:right !important;}
+
+body #event_form_event_type_id{float:right !important;}
+body #remain_sub_category{float:right !important;}
+
+body .radio input[type="radio"], body .checkbox input[type="checkbox"]{float:right; margin-left: 10px;}
+
+body span.linker_tager{position: absolute; left: 20px; top:20px; right: auto;}
+body .addthis_toolbox.addthis_default_style{float:left;}
+
+body .event_each div.category_box p{float: right !important;}
+
+body .event_each div.category_box span.category_divider {background: url("../img/category_box_divider_r.png") no-repeat scroll 0 0 transparent !important; float: right !important;}
+body #verify_organizer_info,body #verify_organizer_info a{text-align: right;}
+body #verify_organizer_info .modal-body{text-align: right;}
+body #verify_organizer_info .modal-footer{text-align: right;}
+
+body h1.event_title_index a {font-size: 16px; float: right; margin-left: 10px;}
+body a.forgot{float: left;}
+
+body .table#specific_emailTable th, body .table#specific_emailTable td{text-align: right;}
+
+body a.tooltip-test.tooltip-test3 {float:left;}
+body .how_fee{background-position:919px 23px; background-image:url(../img/ar_ar.jpg)}
+
+body .ui-timepicker-div dl dt.ui_tpicker_hour_label{float: right; margin: 0px 0px 0px 0px; width: 32px; padding-left: 10px;}
+body .ui-timepicker-div dl dt.ui_tpicker_minute_label{float: right; margin: 0px; width: 32px;}
+body .ui-timepicker-div dl dd.ui_tpicker_hour{float: left; width: 195px; margin: 0px 0px 11px 12px;}
+body .ui-timepicker-div dl dd.ui_tpicker_minute{float: left; margin: 0px 0px 0px 12px; width: 195px;}
+body .ui-timepicker-div dl dt.ui_tpicker_time_label{float: right; margin: 0px 5px 0px 0px;}
+body .ui-timepicker-div dl dd.ui_tpicker_time{float: left; margin: 0px 0px 10px 10px; width: 217px;}
+
+body .ui-datepicker .ui-datepicker-buttonpane{width:97%; float:left;}
+body .table th, .table td{text-align: right !important;}
+
+body .ui-datepicker .ui-datepicker-prev{left:auto; right: 2px;}
+body .ui-datepicker .ui-datepicker-next{right: auto; left: 2px;}
+
+body .ui-icon-circle-triangle-e{background-position: -80px -192px;}
+body .ui-icon-circle-triangle-w{background-position: -48px -192px;}
+body #map{direction: ltr !important;} 
+
+body .addthis_toolbox.addthis_default_style {
+    float: left;
+    margin-top: 10px;    
+}
+
+body #map-canvas{direction: ltr;}
+
+body .step span, body .bankinfo_l, body .bankinfo_r img, body a.payment_btn{float:right}
+body .step strong{float:left}
+
+body .payment_btn.ajax121.cboxElement > span{margin:0 4px 0 0}
+
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+ .gmnoprint img {margin: 0 0 0 26px !important;} /*for google chrome map
+}*/
+
+
+body .header .menu ul.nav{float:left}
+
+
+body .span8.left{float:right}
+body .span4.right ul{float:left !important}
+body .dropdown-menu.pull-right{right:inherit; left:0;}
+
+body .header.navbar .nav > li{float:right}
+
+body .row-fluid [class*="span"]{float:right;margin-right: 2.12766%; margin-left:0;}
+
+body .row-fluid [class*="span"]:first-child{margin-right: 0;}
+body tspan{direction: ltr;}
+
+body .proce_upper_box_r{
+    float: left;
+}
+body .proce_upper_box_l{
+    float: right;
+}
+body .proce_upper_box_r1, body .proce_upper_box_r2{
+    float: right;
+}
+body .proce_upper_box_r1{
+    margin-left: 0;
+    margin-right: 20px;
+}
+body .event_each img{
+    float: right;
+}
+
+body .addthis_toolbox{float: left;}
+
+.big_button_success_ar {
+	font-family:"Cocon-Next-Arabic-Light", Arial, Helvetica, sans-serif;
+	background-image:url(../img/create_event_bg.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	text-align:center;
+	color:#fff;
+	text-shadow:2px 2px 1px #5d6e26;
+	font-size:25px;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:58px;
+	float:right;
+	padding:0 25px;
+	margin-top:38px;
+	margin-bottom:35px;
+	background-size: 100% 200%;
+}
+.big_button_success_ar:hover {
+	background-position:0 -58px;
+	color:#fff;
+	text-decoration:none;

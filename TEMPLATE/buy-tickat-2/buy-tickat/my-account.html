@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Buy Tickat</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/headshrinker.css" media="screen" />
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/default.css" type="text/css">
+     <!-- Core CSS File. The CSS code needed to make eventCalendar works -->
+	<link rel="stylesheet" href="css/eventCalendar.css">
+
+	<!-- Theme CSS file: it makes eventCalendar nicer -->
+	<link rel="stylesheet" href="css/eventCalendar_theme_responsive.css">
+  <link href="css/media.css" rel="stylesheet">
+   <!-- google font here -->
+    <link href="http://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Titillium+Web:700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    
+    
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron list-jumb dashboard-menu">
+    	<div class="container">
+        	<nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="buy-tickat" class="img-responsive"></a>
+                </div>
+        
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">My Account</a></li>
+                    <li><a href="#">Organizer Dashboard</a></li>
+                    <li><a href="#">Create Event</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+               <a href="#" class="head-btn btn-blue log-out"><i class="fa fa-sign-out"></i>sign Out</a>
+            </nav>
+        </div>
+    </div>
+    
+    <div class="jumbotron main-jumb"> 
+   		 <div class="container">
+            <div class="row">
+                <div class="col-md-1 col-sm-12">
+                   <div class="account-img">
+                   		<img src="images/acc-pic.jpg" alt="" class="img-responsive img-circle">
+                   </div>
+                </div>
+                
+                <div class="col-md-10 col-sm-12">
+                  	<div class="account-info">
+                   		<p><strong>John Doe</strong><br/>
+                        Joined On: 26th March 2015<br/>
+                        Last Update On: Thu, 26 Mar 2015 8:23 am</p>
+                   </div>
+                </div>  
+            </div>
+         </div>
+    </div>
+    <div class="container account-details">
+        <!--Vertical Tab-->
+        <div id="parentVerticalTab">
+            <ul class="resp-tabs-list hor_1">
+                <li>View Profile</li>
+                <li>Update Profile</li>
+                <li>Change Password</li>
+                 <li>Close Account</li>
+            </ul>
+            <div class="resp-tabs-container hor_1">
+                <div class="view-profile">
+                	<h1>My Account</h1>
+                    <div class="box">
+                        <h3>Account Information</h3>
+                        <div class="box_content">
+                            <ul class="for_info">
+                                <li>
+                                    <label>Prefix </label>
+                                    <p></p>
+                                </li>
+                                <li>
+                                    <label>First Name</label>
+                                    <p>John</p>        
+                                </li>
+                                <li>
+                                    <label>Last Name</label>
+                                    <p>Doe</p>        
+                                </li>     
+                                <li>
+                                    <label>Gender</label>
+                                    <p>Male</p>
+                                </li>   
+                                <li>
+                                    <label>Email Address</label>
+                                    <p>
+                                        esajayyogal@gmail.com                            
+                                    </p>        
+                                </li>
+                                <li>
+                                    <label>Contact Number</label>
+                                    <p>
+                                        Home:                     Mobile:                 </p>
+                                </li>
+                                <li>
+                                    <label>Address </label>
+                                    <p>
+                                                        </p>        
+                                </li>
+                                <li>
+                                    <label>Address1</label>
+                                    <p>
+                                                        </p>        
+                                </li>
+                                <li>
+                                    <label>City</label>
+                                    <p>
+                                                    
+                                    </p>        
+                                </li>
+                                <li>
+                                    <label>Province</label>
+                                    <p>
+                                         
+                                    </p>
+                                </li>
+                                
+                                <li>
+                                    <label>ZIP Code</label>
+                                    <p>
+                                                    
+                                    </p>        
+                                </li>
+                                <li>
+                                    <label>Country</label>
+                                    <p>
+                                            
+                                            
+                                    </p>        
+                                </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <h3>Work Information:</h3>
+                        <div class="box_content">        
+                            <ul class="for_info">        
+                                <li>
+                                    <label>Job Title</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                                <li>
+                                    <label>Company</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                                <li>
+                                    <label>Address</label>
+                                    <p>
+                                                        </p>                
+                                </li>
+                                <li>
+                                    <label>City</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                                <li>
+                                    <label>Province</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                                <li>
+                                    <label>ZIP</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                                <li>
+                                    <label>Country</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                                <li>
+                                    <label>Website</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3>Bank Information</h3>
+                        <div class="box_content">        
+                            <ul class="for_info">        
+                                <li>
+                                    <label>Bank Name</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                                <li>
+                                    <label>Account Holder name</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                                <li>
+                                    <label>Account Number</label>
+                                    <p>
+                                                        </p>                
+                                </li>
+                                <li>
+                                    <label>Western Union Payee Name</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                                <li>
+                                    <label>Western Union City</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                                <li>
+                                    <label>Western Union Country</label>
+                                    <p>
+                                                        </p>
+                                </li>
+                                        </ul>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3>Email Preference</h3>
+                        <div class="box_content">        
+                            <ul class="for_info">            
+                                <li>
+                                    <label>Receive Regular Updates?</label>
+                                    <p>                
+                                       Yes 
+                                    </p>
+                                </li>
+                                <li>
+                                    <label>Receive Reminders of Events?</label>
+                                    <p>
+                                        Yes                </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="update-profile">
+                	<h1>Profile Update</h1>
+                    <form method="post" class="frm_rg frm_acc" name="update_profile">
+                        <div class="box">
+                            <h3>Account Information</h3>
+                            <div class="box_content">
+                                <ul class="for_info">        
+                                    <li>
+                                        <label>Prefix</label>
+                                        <p>
+                                            <input name="prefix" type="text" class="" value="" maxlength="4">
+                                                            </p>
+                                    </li>
+                                    <li>
+                                        <label>First Name</label>
+                                        <p>
+                                            <input name="first_name" type="text" class="" value=""> 
+                                                            </p>        
+                                    </li>
+                                    <li>
+                                        <label>Last Name</label>
+                                        <p>
+                                            <input name="last_name" type="text" class="" value=""> 
+                                                        
+                                        </p>        
+                                    </li>     
+                                    <li>
+                                        <label>Gender</label>
+                                        <p>
+                                            <input type="radio" name="gender" value="M"> Male
+                                            <input type="radio" name="gender" value="F"> Female                
+                                        </p>
+                                    </li>   
+                                    <li>
+                                        <label>Email Address</label>
+                                        <p>
+                                            <input name="email" type="text" class="" value="esajayyogal@gmail.com"> 
+                                                        
+                                        </p>        
+                                    </li>
+                                    <li>
+                                        <label>Contact Number</label>
+                                        <p>
+                                            Home: <input name="home_number" type="text" value="">
+                                            Mobile: <input name="mobile_number" type="text" value="">
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <label>Address</label>
+                                        <p>
+                                            <input name="address" type="text" class="" value=""> 
+                                                        
+                                        </p>        
+                                    </li>
+                                    <li>
+                                        <label>Address 1</label>
+                                        <p>
+                                            <input name="address1" type="text" class="" value="">
+                                        </p>        
+                                    </li>
+                                    <li>
+                                        <label>City</label>
+                                        <p>
+                                            <input name="city" type="text" class="" value=""> 
+                                                        
+                                        </p>        
+                                    </li>
+                                    <li>
+                                        <label>Province</label>
+                                        <p>
+                                            <input name="state" type="text" class="" value=""> 
+                                        </p>
+                                    </li>
+                                    
+                                    <li>
+                                        <label>ZIP Code</label>
+                                        <p>
+                                            <input name="zip" type="text" class="" value="">
+                                                        
+                                        </p>        
+                                    </li>
+                                    <li>
+                                        <label>Country</label>
+                                        <p>
+                                            <select name="country">
+                                                <option value="">Select Option</option>
+                                                                                                    
+                                                    <option value="Algeria">Algeria</option>
+                                                    
+                                                                            
+                                                    <option value="Bahrain">Bahrain</option>
+                                                    
+                                                                            
+                                                    <option value="Egypt">Egypt</option>
+                                                    
+                                                                            
+                                                    <option value="India">India</option>
+                                                    
+                                                                            
+                                                    <option value="Iraq">Iraq</option>
+                                                    
+                                                                            
+                                                    <option value="Jordan">Jordan</option>
+                                                    
+                                                                            
+                                                    <option value="Kuwait">Kuwait</option>
+                                                    
+                                                                            
+                                                    <option value="Lebanon">Lebanon</option>
+                                                    
+                                                                            
+                                                    <option value="Libya">Libya</option>
+                                                    
+                                                                            
+                                                    <option value="Morocco">Morocco</option>
+                                                    
+                                                                            
+                                                    <option value="Nepal">Nepal</option>
+                                                    
+                                                                            
+                                                    <option value="Oman">Oman</option>
+                                                    
+                                                                            
+                                                    <option value="Palastine">Palastine</option>
+                                                    
+                                                                            
+                                                    <option value="Qatar">Qatar</option>
+                                                    
+                                                                            
+                                                    <option value="Saudi Arabia">Saudi Arabia</option>
+                                                    
+                                                                            
+                                                    <option value="Sudan">Sudan</option>
+                                                    
+                                                                            
+                                                    <option value="Syria">Syria</option>
+                                                    
+                                                                            
+                                                    <option value="Tunisia">Tunisia</option>
+                                                    
+                                                                            
+                                                    <option value="UK">UK</option>
+                                                    
+                                                                            
+                                                    <option value="United Arab Emirates">United Arab Emirates</option>
+                                                    
+                                                                            
+                                                    <option value="USA">USA</option>
+                                                    
+                                                                            
+                                                    <option value="Yemen">Yemen</option>
+                                                    
+                                                                    </select>                    
+                                                        
+                                        </p>        
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h3>Work Information:</h3>
+                            <div class="box_content">
+                                <ul class="for_info">
+                                    <li>
+                                        <label>Job Title</label>
+                                        <p>
+                                            <input type="text" name="work_job_title" class="" value="">
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <label>Company</label>
+                                        <p>
+                                            <input type="text" name="work_company" class="" value="">
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <label>Address</label>
+                                        <p>
+                                            <input type="text" name="work_address" class="" value="">
+                                        </p>                
+                                    </li>
+                                    <li>
+                                        <label>City</label>
+                                        <p>
+                                            <input type="text" name="work_city" class="" value="">
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <label>Province</label>
+                                        <p>
+                                            <input type="text" name="work_state" class="" value="">
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <label>ZIP</label>
+                                        <p>
+                                            <input type="text" name="work_zip" class="" value="">
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <label>Country</label>
+                                        <p>
+                                            <input type="text" name="work_country" class="" value="">
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <label>Website</label>
+                                        <p>
+                                            <input type="text" name="work_website" class="" value="">
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h3>Bank Information</h3>
+                            <div class="box_content">
+                                <ul class="for_info">
+                                    <li>
+                                        <label>Bank Name</label>
+                                        <p>
+                                            <input type="text" name="bank_name" class="" value="">
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <label>Account Holder name</label>
+                                        <p>
+                                            <input type="text" name="account_holder_name" class="" value="">
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <label>Account Number</label>
+                                        <p>
+                                            <input type="text" name="account_number" class="" value="">
+                                        </p>                
+                                    </li>
+                                    <li>
+                                        <label>Western Union Payee Name</label>
+                                        <p>
+                                            <input type="text" name="western_payee_name" class="" value="">
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <label>Western Union City</label>
+                                        <p>
+                                            <input type="text" name="western_city" class="" value="">
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <label>Western Union Country</label>
+                                        <p>
+                                            <input type="text" name="western_country" class="" value="">
+                                        </p>
+                                    </li>
+                                  
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h3>Email Preference</h3>
+                            <div class="box_content">
+                                <ul class="for_info">
+                                    <li>
+                                        <label>Receive Regular Updates?</label>
+                                        <p>
+                                            <input type="radio" name="email_update_notify" value="1" checked="checked">Yes                    <input type="radio" name="email_update_notify" value="0">No                </p>
+                                    </li>
+                                    <li>
+                                        <label>Receive Reminders of Events?</label>
+                                        <p>
+                                            <input type="radio" name="email_event_notify" value="1" checked="checked">Yes 
+                                            <input type="radio" name="email_event_notify" value="0">No                </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="update-btn">
+                           <button type="submit" class="submit">Update</button>
+                        </p>  
+					</form>
+                </div>
+                <div class="change-password">
+                	<h1>Change Password</h1>
+                    <form method="post" class="frm_rg frm_acc" name="change_password">
+                   		 <div class="box">
+                       		 <div class="box_content">
+                            <ul class="for_info">
+                                <li>
+                                <label>Old Password</label>
+                                <p><input name="old_password" type="password" class="" value=""></p>
+                                <p></p>
+                                
+                                </li>
+                                <li><label>New Password</label>
+                                <p><input name="new_password" type="password" class="" value=""> </p>
+                                </li>
+                                 <li> <label>Re Password</label>
+                                <p><input name="re_password" type="password" class="" value=""> </p>
+                                </li>
+                            </ul>
+                         </div>
+                    	</div>
+                         <p class="update-btn">
+                            <button type="submit" class="submit">Change</button>
+                          </p>
+                    </form>
+                </div>
+                <div class="close-account">
+                   <form method="post" class="frm_rg frm_acc" name="close_account">
+                   		 <div class="box">
+                        <div class="box_content">
+                            <ul class="for_info">
+                                <li><p>Select the reason of closing the account:</p></li>
+                                <li>
+                                    <label><input type="radio" name="closing_reason" value="many_emails" class="closing_account"></label>Too Many Emails? 
+                                    <div id="many_emails" class="closing_account_reason" style="display: none;">
+                                        <p onclick="change_notification('update');">
+                                        <label>Update email notification</label><span id="change_update_event_notify" style="cursor: pointer;">off</span>
+                                        </p>
+                                        <br>
+                                        <p onclick="change_notification('event')">
+                                        <label>Event email notification</label> <span id="change_email_event_notify" style="cursor: pointer;">off</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>            
+                                    <label><input type="radio" name="closing_reason" value="dislike_system" class="closing_account"></label>I don't like the system                <div id="dislike_system" class="closing_account_reason" style="display: none; margin-left: 210px;">
+                                        <textarea name="dislike_system"></textarea>        
+                                    </div>
+                                </li>
+                                <li>
+                                    <label><input type="radio" name="closing_reason" value="other" class="closing_account"></label>Other                <div id="other" class="closing_account_reason" style="display: none; margin-left: 210px;">
+                                        <textarea name="other"></textarea>        
+                                    </div>
+                                </li>          
+                            </ul>
+                        </div>
+                     </div>
+                    </form>
+                    <p class="update-btn">
+                        <input type="submit" class="submit" name="close_acc_submit" value="Close account">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="jumbotron footer">
+        <div class="container footer-top">
+           <div class="row">
+               
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h3>event catagories</h3>
+                   <ul class="footer-list">
+                       <li>
+                           <a href="#"> Class</a>
+                       </li>
+                       <li>
+                           <a href="#"> Movie</a>
+                       </li>
+                       <li>
+                           <a href="#"> Music</a>
+                       </li>
+                       <li>
+                           <a href="#"> Flight/Bus Ticket</a>
+                       </li>
+                       <li>
+                           <a href="#"> Party</a>
+                       </li>
+                       <li>
+                           <a href="#"> Art</a>
+                       </li>
+                       
+                       
+                   </ul>
+                   
+                   
+               </div>
+               
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h3>Using Buy Tickat</h3>
+                   <ul class="footer-list">
+                       <li>
+                           <a href="#"> How to post event</a>
+                       </li>
+                       <li>
+                           <a href="#"> Pricing</a>
+                       </li>
+                       <li>
+                           <a href="#"> Event management</a>
+                       </li>
+                       <li>
+                           <a href="#"> Event guide</a>
+                       </li>
+                       <li>
+                           <a href="#"> Business partners</a>
+                       </li>
+                      
+                       
+                   </ul>
+                   
+                   
+               </div>
+               
+               
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h3>Popular Search</h3>
+                   <ul class="footer-list">
+                       <li>
+                           <a href="#"> Food festival</a>
+                       </li>
+                       <li>
+                           <a href="#"> Tote bag Intelligentsia irony ennui </a>
+                       </li>
+                       <li>
+                           <a href="#"> Tote bag Intelligentsia irony ennui ethical</a>
+                       </li>
+                       <li>
+                           <a href="#"> Tote bag Intelligentsia </a>
+                       </li>
+                       <li>
+                           <a href="#"> Tote bag Intelligentsia irony</a>
+                       </li>
+                       
+                       
+                   </ul>
+                   
+                   
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h3>Connect With Us</h3>
+               <a href="#" class="social-button facebook">
+                   <i class="fa fa-facebook"></i>
+                   Facebook
+                   
+                   
+               </a>
+               <a href="#" class="social-button twitter">
+                   <i class="fa fa-twitter"></i>
+                   twitter
+                   
+                   
+               </a>
+               <a href="#" class="social-button google">
+                   <i class="fa fa-google-plus"></i>
+                   google plus
+                   
+                   
+               </a>
+               <a href="#" class="social-button contact-btn">
+                   <i class="fa fa-envelop"></i>
+                   contact us
+                   
+                   
+               </a>
+                   
+                   
+               </div>
+           </div>
+            
+            
+            
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <a href="#" class="copyright">Copyright © 2015 by eSignature Pvt. Ltd.</a>
+                <div class="footer-nav">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#"> About Us  </a>
+                            
+                        </li>
+                        <li>
+                            <a href="#">Features </a>
+                            
+                        </li>
+                        <li>
+                            <a href="#">Events      </a>
+                            
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                            
+                        </li>
+                           <li>
+                            <a href="#">Faqs</a>
+                            
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+  
+    <!-- Placed at the end of the document so the pages load faster -->
+   
+    <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery.eventCalendar.js" type="text/javascript"></script>
+    <script src="js/easyResponsiveTabs.js"></script>
+  
+
+<!--
+    <script src="js/jquery.headshrinker.js"></script>
+    
+    
+    
+   <script>
+jQuery(document).ready(function () {
+    jQuery('.header').headshrinker({ fontSize: "17px", mobileMenu: true });
+});
+</script>
+-->
+    <script src="js/f1-nav.js"></script>
+    <script type="text/javascript" src="js/zebra_datepicker.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+    <script>
+   $('#datepicker-example1').Zebra_DatePicker();
+    </script>
+    <script>
+        
+        $('#datepicker-example7-start').Zebra_DatePicker({
+                direction: true,
+                pair: $('#datepicker-example7-end')
+            });
+
+            $('#datepicker-example7-end').Zebra_DatePicker({
+                direction: 1
+            });
+        
+    </script>
+    
+    <script>
+        
+        $(function() {
+
+    
+    //Close alert
+    $('.page-alerts .close').click(function(e) {
+        e.preventDefault();
+        $(this).closest('.page-alerts').slideUp();
+    });
+    
+    //Clear all
+    $('.clear-page-alerts').click(function(e) {
+        e.preventDefault();
+        $('.page-alerts').slideUp();
+    });
+});
+    </script>
+    
+   
+    <script>
+$(document).ready(function(){
+    $(".loadmore").click(function(){
+        $(".loadmore").hide();
+    });
+    
+});
+</script>
+  <script>
+    $(document).ready(function(){  
+      $(function(){
+
+	// Instantiate MixItUp:
+
+	$('#Container').mixItUp();
+
+});
+});
+  </script>
+  <script>
+    $(document).ready(function(){  
+      $(function(){
+
+	// Instantiate MixItUp:
+
+	$('#Container1').mixItUp();
+
+});
+});
+  </script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        //Vertical Tab
+        $('#parentVerticalTab').easyResponsiveTabs({
+            type: 'vertical', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            tabidentify: 'hor_1', // The tab groups identifier
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo2');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+    });
+</script>
+   
+  </body>
+</html>

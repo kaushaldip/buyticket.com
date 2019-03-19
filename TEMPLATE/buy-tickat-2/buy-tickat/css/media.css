@@ -1,0 +1,188 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+.head-btn {
+    
+    padding: 7px 15px;
+    margin: 25px 5px 0px 10px;
+    ;
+    display: inline-block;
+}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+.head-btn {
+    
+    width: 30.8%;
+}
+        .container-32
+        {
+            padding: 0 !important;
+        }
+        .list-thumb
+        {
+            margin-bottom: 15px;
+        }
+        .search-event-small img
+        {
+            margin: 0 auto;
+        }
+          .search-event-small 
+        {
+           text-align: center;
+        }
+        .event-big img
+        {
+            width: 100%;
+        }
+        .form-horizontal
+        {
+            text-align: center !important;
+        }
+        .img-fix1
+        {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .row-fix
+        {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        .panel {
+
+    top: 181px;
+ 
+}
+        .catagories img
+        {
+            width: 100%;
+        }
+        
+        .Zebra_DatePicker_Icon_Wrapper
+        {
+            display: inline-block !important;
+        }
+        .popular-events img , .up-event img
+        {
+            width: 100%;
+        }
+        .up-event
+        {
+            margin-bottom: 30px;
+display: block;
+        }
+		/* Added styles for dashboard */
+		.dashboard-menu .head-btn {
+			width:auto;
+		}
+        
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+        
+        .head-btn {
+    width: 28.8%;
+}
+        .form-label {
+    display: block;
+    width: 125px;
+    float: none;
+    margin-left: 17px;
+}
+        
+         .copyright , .footer-nav
+        {
+            display: block;
+text-align: center;
+float: none;
+margin-bottom: 15px;
+        }
+        
+        .search-btn2
+        {
+           display: block;
+/*width: 96%;*/
+        }
+        
+        .head-btn {
+    
+    margin: 25px 5px 0px 0px;
+}
+     .head-btn-fix
+        {
+            margin-right: 0 !important;
+            margin-left: 0 !important;
+        }
+		
+		/* Added styles for dashboard */
+		.navbar-inverse .navbar-toggle {
+			background-color:#144085;
+			border:none;
+		}
+		.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+			background-color:#CA1619;
+		}
+		.dashboard-menu .navbar-inverse .navbar-nav>li:first-child>a {
+			padding-left:15px;
+		}
+		.account-img {
+			width:100px;
+			margin:0 auto;
+		}
+		.account-info {
+			text-align:center;
+		}
+		.account-details {
+			padding-top:0;
+		}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+               .head-btn {
+    width: 100%;
+                  
+}
+        button.custom
+        {
+            width: 47%;
+        }
+        .controls
+        {
+            width: 100%;
+        }
+        .panel {
+    top: 302px;
+}
+       
+        
+        .container-32
+        {
+            padding: 0 !important;
+        }
+		
+		/* Added styles for dashboard */
+		.dashboard .head-btn {
+			width:auto;
+		}
+		.dashboard .col-xs-6 {
+			width:100%;
+		}
+		.dashboard-menu .head-btn {
+			width:auto;
+			top:20px;
+		}
+        
+    }
+
+   
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
