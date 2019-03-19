@@ -48,10 +48,9 @@ if($_SERVER['HTTP_HOST'] == "localhost:8888" || $_SERVER['HTTP_HOST'] == "192.16
     define('BASEURL','http://'.$_SERVER['HTTP_HOST'].'/buyticket.com/');
 }    
 else
-{      
-    $url = "http".((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "s" : "")."://".$_SERVER['HTTP_HOST'].'/';    
-    define('BASEURL',$url);
-    define('ROOT_SITE_PATH',"//".$_SERVER['HTTP_HOST'].'/');
+{
+    define('ROOT_SITE_PATH','http://'.$_SERVER['HTTP_HOST'].'/buyticket.com/');
+    define('BASEURL','http://'.$_SERVER['HTTP_HOST'].'/buyticket.com/');
 }
 
 define('ADMIN_CSS_DIR_FULL_PATH',						ROOT_SITE_PATH.'assets/admin_css/');
